@@ -6,6 +6,7 @@ import {GrSteps, GrCloudSoftware} from 'react-icons/gr'
 import {GiArtificialIntelligence} from  'react-icons/gi'
 import {MdWeb} from "react-icons/all";
 import {SiSmartthings} from "react-icons/all"
+import {VscSymbolArray} from "react-icons/all";
 
 function About() {
     return (
@@ -175,6 +176,12 @@ function About() {
                         <div className="icon-box">
                             <GrCloudSoftware className={"icons"} style={{ color: "#c87f48"}}/>
                             <h3>Software Development</h3>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div className="icon-box">
+                            <VscSymbolArray className={"icons"} style={{ color: "#d9d242"}}/>
+                            <h3>Data Structures</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">

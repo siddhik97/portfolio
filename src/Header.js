@@ -9,7 +9,7 @@ function Header() {
 
                 <h1><a href="index.html">Siddhi Kotian</a></h1>
 
-                <h2>I'm a passionate <span>software developer</span>, currently residing in Fort Collins</h2>
+                <h2>I'm a passionate <span>software developer</span>, currently residing in Fort Collins.</h2>
 
                 <nav className="nav-menu d-none d-lg-block">
                     <ul>
