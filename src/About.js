@@ -1,6 +1,8 @@
 import './About.css';
 import {FaRegSmile, FaFolder} from 'react-icons/fa'
 import {IoIosArrowForward} from 'react-icons/io'
+import profileImage from './profileimg.jpg';
+import {MdWeb} from 'react-icons/md'
 
 function About() {
     return (
@@ -15,7 +17,7 @@ function About() {
 
                 <div className="row">
                     <div className="col-lg-4" data-aos="fade-right">
-                        <img  alt="" src={"profile.jpg"}/>
+                        <img  alt="No img" src={profileImage} className={"img-fluid"}/>
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Software Engineer</h3>
@@ -135,24 +137,35 @@ function About() {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-3 col-md-4">
+                    <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <h3>Lorem Ipsum</h3>
+                            <MdWeb className={"icons"} />
+                            <h3>Web Development</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <h3>Dolor Sitema</h3>
+                            <h3>Android</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <h3>Sed perspiciatis</h3>
+                            <h3>Big Data</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <h3>Sed perspiciatis</h3>
+                            <h3>Machine Learning</h3>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div className="icon-box">
+                            <h3>Artificial Intelligence</h3>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div className="icon-box">
+                            <h3>Software Development</h3>
                         </div>
                     </div>
                 </div>
