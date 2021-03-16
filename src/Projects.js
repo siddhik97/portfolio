@@ -16,7 +16,7 @@ function Projects() {
                 </div>
 
                 <div className="row">
-                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
                         <div className="icon-box">
                             <div className="icon"><RiProfileFill className={"icons"}/></div>
                             <h4><a href="https://siddhik97.github.io/profile/">Profile Card</a></h4>

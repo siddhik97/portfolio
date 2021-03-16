@@ -1,8 +1,11 @@
 import './About.css';
-import {FaRegSmile, FaFolder} from 'react-icons/fa'
+import {FaAndroid, FaDatabase} from 'react-icons/fa'
 import {IoIosArrowForward} from 'react-icons/io'
 import profileImage from './profileimg.jpg';
-import {MdWeb} from 'react-icons/md'
+import {GrSteps, GrCloudSoftware} from 'react-icons/gr'
+import {GiArtificialIntelligence} from  'react-icons/gi'
+import {MdWeb} from "react-icons/all";
+import {SiSmartthings} from "react-icons/all"
 
 function About() {
     return (
@@ -54,7 +57,8 @@ function About() {
 
                         </p>
                         <p className={"font-italic"}>
-                            I am originally from Mumbai, India. Currently pursuing my master's degree at Colorado State University. I am a quick learner with a wide range of interests.
+                            I am originally from Mumbai, India. Currently pursuing my master's degree at Colorado State University. I am a hard-working and reliable graduate student with a strong background and interest in developing efficient algorithms and software. I am  also a quick learner with a wide range of interests. I am
+                            actively seeking new grad 2021 positions for SDE.
 
                         </p>
                     </div>
@@ -139,33 +143,44 @@ function About() {
                 <div className="row">
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <MdWeb className={"icons"} />
+                            <MdWeb className={"icons"} style={{ color: "#47a5d0"}} />
                             <h3>Web Development</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
+                            <FaAndroid className={"icons"} style={{ color: "#48c84e"}}/>
                             <h3>Android</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
+                            <FaDatabase className={"icons"} style={{ color: "#945acd"}}/>
                             <h3>Big Data</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
+                            <SiSmartthings className={"icons"} style={{ color: "#c87f48"}}/>
                             <h3>Machine Learning</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
+                            <GiArtificialIntelligence className={"icons"} style={{ color: "#c84848"}}/>
                             <h3>Artificial Intelligence</h3>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
+                            <GrCloudSoftware className={"icons"} style={{ color: "#c87f48"}}/>
                             <h3>Software Development</h3>
+                        </div>
+                    </div>
+                    <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
+                        <div className="icon-box">
+                            <GrSteps className={"icons"} style={{ color: "#d9d242"}}/>
+                            <h3>Algorithms</h3>
                         </div>
                     </div>
                 </div>
