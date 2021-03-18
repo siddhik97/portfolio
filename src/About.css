@@ -107,6 +107,15 @@
     line-height: 1;
 }
 
+.icons-swe path{
+    fill: white !important;
+}
+
+.icons-algo polygon{
+    fill: #981462 !important;
+    stroke: #981462 !important;
+}
+
 .interests .icon-box h3 {
     font-weight: 700;
     margin: 0;

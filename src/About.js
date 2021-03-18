@@ -174,7 +174,7 @@ function About() {
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <GrCloudSoftware className={"icons"} style={{ color: "#c87f48"}}/>
+                            <GrCloudSoftware className={"icons icons-swe"} style={{ color: "#c87f48", fill: "white"}}/>
                             <h3>Software Development</h3>
                         </div>
                     </div>
@@ -186,7 +186,7 @@ function About() {
                     </div>
                     <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                         <div className="icon-box">
-                            <GrSteps className={"icons"} style={{ color: "#d9d242"}}/>
+                            <GrSteps className={"icons icons-algo"} style={{ color: "#d9d242"}}/>
                             <h3>Algorithms</h3>
                         </div>
                     </div>

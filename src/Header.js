@@ -22,10 +22,10 @@ function Header() {
                 </nav>
 
                 <div className="social-links">
-                    <a href="#" className="github icons"><FaGithub/></a>
-                    <a href="#" className="facebook icons"><FaPinterest/></a>
-                    <a href="#" className="instagram icons"><FaInstagram/></a>
-                    <a href="#" className="linkedin icons"><FaLinkedin/></a>
+                    <a href="https://github.com/siddhik97" className="github icons"><FaGithub/></a>
+                    <a href="https://www.pinterest.com/siddhik97/" className="facebook icons"><FaPinterest/></a>
+                    <a href="https://www.instagram.com/siddhik097/" className="instagram icons"><FaInstagram/></a>
+                    <a href="https://www.linkedin.com/in/siddhikotian/" className="linkedin icons"><FaLinkedin/></a>
                 </div>
 
             </div>
