@@ -11,7 +11,7 @@ function Header() {
 
                 <h2>I'm a passionate <span>software developer</span>, currently residing in Fort Collins.</h2>
 
-                <nav className="nav-menu d-none d-lg-block">
+                <nav className="nav-menu d-lg-block">
                     <ul>
                         <li className="active"><a href="#header">Home</a></li>
                         <li><a href="#about">About</a></li>
