@@ -48,12 +48,12 @@ function Resume() {
                         <div className="resume-item">
                             <h4>Software Development Engineer</h4>
                             <h5>February 2022 - Present</h5>
-                            <p><em>Audible Inc.</em></p>
+                            <p><em>Audible Inc., Newark, NJ</em></p>
                         </div>
                         <div className="resume-item">
                             <h4>Software Development Engineer</h4>
                             <h5>September 2021 - February 2022</h5>
-                            <p><em>iWaandr Inc.</em></p>
+                            <p><em>iWaandr Inc., Remote</em></p>
                         </div>
                         <div className="resume-item">
                             <h4>Machine Learning and Big Data Tutor</h4>
